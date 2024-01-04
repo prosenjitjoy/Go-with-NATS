@@ -1,0 +1,22 @@
+services:
+  node1:
+    image: nats:latest
+    command: -c /etc/nats/node1.conf
+    volumes:
+      - ./config/node1.conf:/etc/nats/node1.conf
+    ports:
+      - 4222:4222
+  node2:
+    image: nats:latest
+    command: -c /etc/nats/node2.conf
+    volumes:
+      - ./config/node2.conf:/etc/nats/node2.conf
+    ports:
+      - 4223:4223
+  node3:
+    image: nats:latest
+    command: -c /etc/nats/node3.conf
+    volumes:
+      - ./config/node3.conf:/etc/nats/node3.conf
+    ports:
+      - 4224:4224

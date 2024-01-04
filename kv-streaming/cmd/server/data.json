@@ -1,0 +1,36 @@
+{
+  "reggae": [
+    {
+      "id": "001",
+      "title": "Three Little Birds",
+      "artist": "Bob Marley & The Wailers"
+    },
+    {
+      "id": "002",
+      "title": "No Woman, No Cry",
+      "artist": "Bob Marley & The Wailers"
+    },
+    {
+      "id": "003",
+      "title": "Redemption Song",
+      "artist": "Bob Marley & The Wailers"
+    }
+  ],
+  "blues": [
+    {
+      "id": "001",
+      "title": "Cross Road Blues",
+      "artist": "Robert Johnson"
+    },
+    {
+      "id": "002",
+      "title": "The Thrill Is Gone",
+      "artist": "B.B. King"
+    },
+    {
+      "id": "003",
+      "title": "I'm Your Hoochie Coochie Man",
+      "artist": "Muddy Waters"
+    }
+  ]
+}
